@@ -1,0 +1,288 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-size: 105%;
+  margin: 0;
+  padding: 0;
+}
+
+/*MAIN NAV*/
+.main__nav {
+  background-color: #a2aac0;
+  font-size: 1.5rem;
+  color: #04020f !important;
+}
+
+.nav-item .nav-link:hover {
+  margin-bottom: 1px solid #ca417d !important;
+}
+
+.doctors {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*INDEX HTML*/
+.reserve {
+  max-width: 80%;
+  margin: 0.5rem auto;
+  padding: 0.3rem 1rem;
+  text-align: center;
+}
+
+.reserve p {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: black;
+}
+
+.image__container {
+  width: 100%;
+  height: 400px;
+  margin: 0.2rem 0;
+}
+
+.image__container img {
+  width: 100%;
+  height: 100%;
+}
+
+.search__doctor {
+  align-items: center;
+  padding: 1rem;
+  background: red;
+  max-width: 80%;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(64, 67, 74, 0.2);
+}
+.search__doctor__form {
+  max-width: 80%;
+  height: 100%;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+}
+
+.search__doctor__form input {
+  padding: 0.4rem;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  width: 30%;
+  height: 3.5rem;
+  margin: auto;
+  border: none;
+}
+
+.doctor__search__button {
+  border: none;
+  width: 100%;
+  background-color: #ca417d;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.8rem 0.2rem;
+}
+
+/*FORMS*/
+.login__form__container,
+.registeration__form__container {
+  max-width: 80%;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+}
+
+.login__form__header,
+.registeration__form__header {
+  font-size: 100%;
+}
+
+.login__form {
+  margin: none;
+}
+
+/*BOOKING*/
+.booking__info {
+  padding: 1.5rem;
+  height: 100%;
+}
+
+.booking__form__container {
+  height: 100%;
+  padding: 0.5rem;
+}
+
+#patient__form__header {
+  text-align: center;
+  font-size: 2.5rem !important;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding: 0.4rem 0.2rem;
+}
+
+.booking__form {
+  max-width: 80%;
+  margin: auto;
+}
+
+.booking__form p {
+  margin: 0;
+}
+
+.input__buttons {
+  display: flex;
+}
+
+.input__buttons input:first-child(1) {
+  margin-right: 0.5rem;
+}
+
+.register__button,
+.login__button,
+.book__button {
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+.small_tag {
+  margin: none !important;
+}
+
+/*Table*/
+
+.search__input {
+  border-radius: 6px;
+  border: none;
+  padding: 0.5rem;
+}
+
+.patient__list {
+  font-size: 120%;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+.reset-button {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+/*FOOTER*/
+.main__footer {
+  background-color: #a2aac0;
+  padding: 1rem;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+.main__footer__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main__footer__list__item {
+  display: inline-block;
+  margin: 0.3rem 0.6rem;
+  padding: 0.2rem;
+}
+
+.main__footer__list__item a {
+  color: black;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.main__footer__list__item a:hover {
+  border-bottom: 1px solid #ca417d;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 30rem) {
+  .reserve {
+    max-width: 90%;
+    margin: 0.2rem auto;
+    padding: 0.1rem 0.5rem;
+    text-align: center;
+  }
+
+  .reserve p {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: black;
+  }
+
+  .search__doctor {
+    align-items: center;
+    padding: 0.5rem;
+    width: 98%;
+    margin: 0.5rem auto;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(64, 67, 74, 0.2);
+  }
+
+  .search__doctor__form {
+    width: 100%;
+  }
+
+  .search__doctor__form .form__inputs {
+    padding: 0.5rem 1rem;
+    font-size: 1.8rem;
+    border-radius: 4px;
+    width: 100%;
+    height: 1rem;
+    margin: 0.5rem 0;
+    border: none;
+  }
+
+  .doctor__search__button {
+    border: none;
+    background-color: #ca417d;
+    color: black;
+    font-weight: bold;
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .search__input {
+    border-radius: 5px;
+    border: none;
+    padding: 0.2rem;
+  }
+
+  .patient__list {
+    font-size: 120%;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  th,
+  td {
+    font-size: 90%;
+    text-align: center;
+  }
+
+  td a {
+    display: block;
+    margin: 0.3rem;
+  }
+}
